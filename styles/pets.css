@@ -1,0 +1,17 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+article{
+	min-height: 90px;
+	display: flex;
+	justify-content: center;
+align-items:center;}
+article img{width: 600px;
+height: 500px;
+object-fit: cover;
+}
+article img:hover{
+	cursor:pointer;
+}
